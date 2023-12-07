@@ -3,8 +3,10 @@
 
 
 {% block content %}
-<h1>HOLA BIENVENIDO!!</h1>
-  <p>NECESITAS UN USUARIO Y CONTRASEÑA PARA PODER ACCEDER AL PANEL Y VER TUS MATERIAS</p>
+<div class="d-flex flex-column justify-content-center align-items-center pt-4">
+<h1>INICIAR SESION</h1>
+  <p>Necesitas una cuenta para poder acceder al panel</p>
+</div>
   <div class="container">
     <form method="post" action="acceso-usuario">  
       {% if mensaje_error %}
