@@ -1,0 +1,13 @@
+{% extends 'alumnos/base.html' %}
+{% block title %}Perfil{% endblock %}
+
+{% block content %}
+{% if session.ingresado %}
+<div>
+    <p>Nombre {{ session.n_usuario }}</p></br>
+    <p>Apellido {{ session.n_apellido }}</p></br>
+    <p>Foto {{ session.foto }}</p></br>
+    <p>Dni {{ session.dni }}</p></br>
+</div>
+{% endif %}
+{% endblock%}
