@@ -33,10 +33,6 @@ def materias():
 @app.route('/perfil')
 def perfil():
     return render_template('alumnos/perfil.html', mostrar_sidebar=True)
-#esto para notas
-@app.route('/notas')
-def notas():
-    return render_template('alumnos/notas.html', mostrar_sidebar=True)
 
 #aca accedemos a la pagina para iniciar sesion
 @app.route('/login')
