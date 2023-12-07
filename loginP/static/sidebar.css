@@ -12,7 +12,7 @@
     background-position: bottom;
     border: 3px solid red;
     background-image: url(https://kronoshomes.com/blog/wp-content/uploads/2019/09/archilovers.jpg);
-    align-items: end;
+    align-items: center;
     display: flex;
 
 }
