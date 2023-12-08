@@ -3,11 +3,10 @@
 
 
 {% block content %}
-<div>
-<h1>HOLA BIENVENIDO!!</h1>
-  <p>NECESITAS UN USUARIO Y CONTRASEÑA PARA PODER ACCEDER AL PANEL Y VER TUS MATERIAS</p>
-</div>
-  <div class="container">
+<div style="background-image: url('https://us.123rf.com/450wm/sputanski/sputanski1606/sputanski160600010/60393187-resumen-de-vectores-de-colores-de-fondo-material-de-la-plaza-para-el-sitio-web-tel%C3%A9fono-impresi%C3%B3n.jpg');
+height: 700px; margin-top: 0px; background-size:cover;">
+  <p style="margin-left: 32%;font-size: 50px;font-weight: 20px; color: black;background-position: center;text-decoration: underline black;"> Ingrese su correo y contraseña</p>
+  <div class="container" ">
     <form method="post" action="acceso-usuario">  
       {% if mensaje_error %}
       <div class="alert alert-danger" role="alert">
@@ -33,10 +32,11 @@
         <input type="checkbox" class="form-check-input" id="exampleCheck1">
         <label class="form-check-label" for="exampleCheck1">Recordarme</label>
       </div>
-      <button type="submit" class="btn btn-primary">Ingresar</button>
+      <button type="submit" style="margin-top:30px;" class="btn btn-primary">Ingresar</button>
       
       
     </form> 
   </div>
+</div>
 {% endblock %}
 
